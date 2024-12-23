@@ -6,8 +6,8 @@ This project aims to predict air quality levels using machine learning technique
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/Hacker-Sam-is-here/Air-Quality-Prediction.git
+   cd Air-Quality-Prediction
    ```
 2. Install the required packages:
    ```bash
