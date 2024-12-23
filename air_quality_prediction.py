@@ -37,8 +37,7 @@ def predict_air_quality(features):
     prediction = loaded_model.predict(features_df)
     return label_encoder.inverse_transform(prediction)[0]
 
-# Example usage with actual feature values from the CSV file
-# Replace with actual feature values from the CSV file
+# Features: [Temperature,Humidity,PM2.5,PM10,NO2,SO2,CO,Proximity_to_Industrial_Areas,Population_Density]
 features = [29.8,59.1,5.2,17.9,18.9,9.2,1.72,6.3,319]
 print("Predicted Air Quality:", predict_air_quality(features))
 
